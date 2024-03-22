@@ -542,3 +542,53 @@ footer {
 .footer-soc-icon {
   fill: #fff;
 }
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  background-color: rgba(30, 24, 35, 0.6);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal {
+}
+.modal-close {
+}
+.title {
+}
+.modal-title {
+}
+.modal-form {
+}
+.modal-field {
+}
+.modal-label {
+}
+.modal-input-wrap {
+}
+.modal-input {
+}
+.modal-icon {
+}
+.modal-text {
+}
+.modal-check {
+}
+.visually-hidden {
+}
+.check-text {
+}
+.modal-check-icon {
+}
+.check-link {
+}
