@@ -490,11 +490,17 @@ footer {
   background-color: #31d0aa;
 }
 
-.footer-input {
-  display: flex;
-  flex-direction: column;
-  margin-left: 80px;
+.footer-bottom {
 }
 
-.footer-btn {
+.footer-form {
+}
+
+.footer-input {
+}
+
+.footer-form-btn {
+}
+
+.footer-soc-icon {
 }
