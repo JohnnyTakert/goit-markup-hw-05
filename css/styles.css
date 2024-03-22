@@ -489,3 +489,12 @@ footer {
 .link-footer:focus {
   background-color: #31d0aa;
 }
+
+.footer-input {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.footer-btn {
+}
