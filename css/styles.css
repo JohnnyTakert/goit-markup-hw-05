@@ -546,7 +546,9 @@ footer {
 .backdrop {
   position: fixed;
   top: 0;
-  background-color: rgba(30, 24, 35, 0.6);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -561,34 +563,12 @@ footer {
 }
 
 .modal {
-}
-.modal-close {
-}
-.title {
-}
-.modal-title {
-}
-.modal-form {
-}
-.modal-field {
-}
-.modal-label {
-}
-.modal-input-wrap {
-}
-.modal-input {
-}
-.modal-icon {
-}
-.modal-text {
-}
-.modal-check {
-}
-.visually-hidden {
-}
-.check-text {
-}
-.modal-check-icon {
-}
-.check-link {
+  border-radius: 4px;
+  width: 408px;
+  min-height: 584px;
+  background-color: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
