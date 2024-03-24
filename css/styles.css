@@ -711,7 +711,7 @@ footer {
   line-height: 1.17;
 }
 
-.modal-check-span {
+.check-text .modal-check-span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -726,7 +726,7 @@ footer {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .modal-check-span {
+.modal-check:checked + .check-text .modal-check-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
