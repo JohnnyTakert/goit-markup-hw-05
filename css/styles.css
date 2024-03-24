@@ -657,7 +657,7 @@ footer {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus + .modal-icon {
+.modal-input:focus + .modal-check-icon {
   fill: #4d5ae5;
 }
 
