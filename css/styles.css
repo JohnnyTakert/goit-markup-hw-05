@@ -571,7 +571,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-close {
@@ -592,7 +592,6 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 72px;
   padding-bottom: 16px;
 }
 
