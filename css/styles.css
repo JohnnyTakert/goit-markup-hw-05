@@ -506,13 +506,15 @@ footer {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  padding-left: 16px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
 }
 
 .footer-input::placeholder {
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  color: #fff;
-  padding-left: 16px;
+  color: #ffffff;
 }
 
 .footer-form-btn {
@@ -523,7 +525,7 @@ footer {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -532,6 +534,7 @@ footer {
   gap: 16px;
   color: #fff;
   letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 
 .footer-form-btn:hover,
@@ -541,6 +544,7 @@ footer {
 
 .footer-soc-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 .backdrop {
