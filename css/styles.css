@@ -657,7 +657,7 @@ footer {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus + .modal-check-icon {
+.modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
 
@@ -715,7 +715,7 @@ footer {
   display: inline-flex;
 }
 
-.modal-check:checked + .check-text .modal-check-icon {
+.modal-check:checked + .modal-check-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
