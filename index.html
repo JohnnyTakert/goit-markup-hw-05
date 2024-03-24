@@ -537,35 +537,55 @@
                 <use href="./images/icons.svg#icon-email-black-18dp1"></use>
               </svg>
             </div>
-            <div class="modal-field-comment modal-input-wrap">
-              <label for="user-comment" class="modal-label">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="modal-text"
-              ></textarea>
-            </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-input-wrap">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="modal-text"
+            ></textarea>
+          </div>
+          <div class="modal-field modal-field-checkbox">
             <input
               type="checkbox"
               name="privacy"
-              required
               id="privacy"
+              value="true"
+              required
               class="modal-check visually-hidden"
             />
             <label for="privacy" class="check-text">
               <span>
-                <svg class="modal-check-icon" width="10" height="10">
-                  <use href="./images/icons.svg#icon-check"></use>
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="check-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-btn">Send</button>
+          <!-- <div class="modal-field-checkbox">
+            <input
+              type="checkbox"
+              name="privacy"
+              id="privacy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="privacy" class="check-text">
+              <span class="modal-privacy-span">
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Checkbox"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
               <a href="" class="check-link">Privacy Policy</a></label
             >
           </div>
-          <button type="submit" class="modal-btn">Send</button>
+          <button type="submit" class="modal-btn">Send</button> -->
         </form>
       </div>
     </div>
