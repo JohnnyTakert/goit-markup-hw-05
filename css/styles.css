@@ -525,13 +525,12 @@ footer {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  min-width: 165px;
+  mix-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   border: none;
-  gap: 16px;
   color: #fff;
   letter-spacing: 0.04em;
   line-height: 1.5;
